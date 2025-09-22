@@ -4,6 +4,10 @@ import userEvent from '@testing-library/user-event';
 
 import MainContent from './MainContent';
 
+// Some comment
+// Yet another comment
+//This is getting ridiculous
+
 describe('MainContent', () => {
   it('should render a button', () => {
     render(<MainContent />);
